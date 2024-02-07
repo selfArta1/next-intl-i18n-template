@@ -1,4 +1,11 @@
 {
+  "NavBar": {
+    "menu01": "AI 聊天",
+    "menu02": "工具",
+    "menu03": "3D 建模",
+    "menu04": "图文小说"
+  },
+
   "HomePage": {
     "title": "SelfArt",
     "description": "selfArt的个人网站"
