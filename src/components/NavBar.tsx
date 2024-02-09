@@ -1,5 +1,4 @@
 import { useTranslations } from 'next-intl';
-import NavigationLink from './NavigationLink';
 import LocaleSwitcherSelect from './LocaleSwitcherSelect';
 
 export default function NavBar() {
