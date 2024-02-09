@@ -46,5 +46,9 @@
         "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router"
       }
     }
+  },
+  "About": {
+    "title": "About Page",
+    "description": "It's  about page"
   }
 }

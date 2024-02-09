@@ -1,4 +1,6 @@
 import { useTranslations } from 'next-intl';
+import NavigationLink from './NavigationLink';
+import LocaleSwitcherSelect from './LocaleSwitcherSelect';
 
 export default function NavBar() {
   const t = useTranslations('NavBar');
@@ -56,7 +58,7 @@ export default function NavBar() {
         </div>
         <div className="navbar-end">
           <div className="dropdown dropdown-hover dropdown-end">
-            <div tabIndex={0} role="button" className="btn m-1">
+            <div tabIndex={0} role="button" className="btn btn-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -74,10 +76,10 @@ export default function NavBar() {
             </div>
             <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-24">
               <li>
-                <a>中文</a>
+                <LocaleSwitcherSelect defaultValue={'zh'} label={'中文'}></LocaleSwitcherSelect>
               </li>
               <li>
-                <a>English</a>
+                <LocaleSwitcherSelect defaultValue={'en'} label={'English'}></LocaleSwitcherSelect>
               </li>
             </ul>
           </div>

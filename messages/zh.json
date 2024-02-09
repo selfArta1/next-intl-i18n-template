@@ -30,8 +30,8 @@
     "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unbekannt}}"
   },
   "Navigation": {
-    "home": "Start",
-    "pathnames": "Pfadnamen"
+    "home": "中文",
+    "pathnames": "Pathnames"
   },
   "PageLayout": {
     "links": {
@@ -46,5 +46,9 @@
         "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router"
       }
     }
+  },
+  "About": {
+    "title": "关于",
+    "description": "这是关于页面"
   }
 }
